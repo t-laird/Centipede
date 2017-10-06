@@ -15,14 +15,37 @@ main {
 	margin: auto;
 }
 
+.top-line-container {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.life-holder {
+	height: 24px;
+	width: 24px;
+	margin-left: 16px;
+}
+
+.life-holder img {
+	height: 24px;
+}
 
 p {
 	height: 24px;
-	font-size: 16px;
-	width: 720px;
+	font-size: 36px;
+	width: 540px;
 	background-color: black;
-	margin: 0;
+	margin: 0 0 0 14px;
 	padding: 0;
+	color: #ed3323;
+	font-family: 'ArcadeClassic';
+	position: relative;
+	bottom: 5px;
+}
+
+.points-span {
+	margin-left: 10px;
 }
 
 .centipede-rotate {
