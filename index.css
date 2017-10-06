@@ -2,6 +2,93 @@
   background-color: black;
 }
 
-.centipede-rotate{
+body {
+	background: linear-gradient(to right, rgba(167,165,166,1) 0%,rgba(255,255,255,1) 50%,rgba(167,165,166,1) 100%);
+}
+
+main {
+	width: 1180px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+
+p {
+	height: 24px;
+	font-size: 16px;
+	width: 720px;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+.centipede-rotate {
   transform: rotate(180deg);
 }
+
+.centipede-header img {
+	width: 1068px;
+	position:relative;
+	top: 15px;
+}
+
+.screen-container {
+	width: 1068px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	background-color: black;
+	justify-content: space-between;
+}
+
+.screen-bars {
+	width: 174px;
+}
+
+.control-panel {
+	width: 1248px;
+	position:relative;
+	bottom: 6px;
+}
+
+.fire-button,
+.direction-buttons {
+	position: relative;
+}
+
+.fire-button {
+	width: 75px;
+	bottom: 260px;
+	left: 439px;
+}
+
+.direction-buttons {
+	width: 48px;
+}
+
+.left-button {
+	bottom: 300px;
+	left: 714px;
+}
+
+.up-button {
+	bottom: 355px;
+	left: 747px;
+}
+
+.right-button { 
+	bottom: 369px;
+	left: 785px;
+}
+
+.down-button {
+	bottom: 382px;
+	left: 752px;
+}
+
+
+
+
