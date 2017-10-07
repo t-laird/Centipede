@@ -17,8 +17,13 @@ main {
 
 .top-line-container {
 	display: flex;
-	justify-content: left;
+	justify-content: space-between;
 	align-items: center;
+}
+
+.lives {
+	width: 120px;
+	display: flex;
 }
 
 .life-holder {
