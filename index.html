@@ -1,71 +1,94 @@
 <!DOCTYPE html>
-<html>        <title>Game Time</title>
-  <link href="index.css" type="text/css" rel="stylesheet">
-</head>
-<body>
+<html>
+
+	<head>
+	  <title>Game Time</title>
+	  <link href="index.css" type="text/css" rel="stylesheet">
+	  <style>
+	  	@font-face { font-family: ArcadeClassic; src: url('assets.arcadeclassic.ttf'); }
+		</style>
+	</head>
+
+	<body>
 
 
-	<main>
-		<header class="centipede-header">
-			<img src="assets/centipede-header.png">
-		</header>
-		<article class="screen-container">
-			<div class="screen-bars">
-				<img src="assets/bar-left.svg">
-			</div>
-			<div class="game-container">
-				<p></p>
-			  	<canvas
-				  width="720"
-				  height="720"
-				  id="game">
-				</canvas>
-			</div>
-			<div class="screen-bars">
-				<img src="assets/bar-right.svg">
-			</div>
-		</article>
-		<article class="game-controls">
-			<img src="assets/controls.svg" class="control-panel">
+		<main>
+			<header class="centipede-header">
+				<img src="assets/centipede-header.png">
+			</header>
 
-			<div class="fire-button">
-				<img src="assets/button-up.svg">
-				<!-- <img src="assets/button-down.svg"> -->
-			</div>
+			<article class="screen-container">
+				<div class="screen-bars">
+					<img src="assets/bar-left.svg">
+				</div>
+				<div class="game-container">
 
-			<div class="left-button direction-buttons">
-				<img src="assets/button-up.svg">
-				<!-- <img src="assets/button-down.svg"> -->
-			</div>
+					<div class="top-line-container">
+						<div class="life-holder life-holder-1"><img src="assets/extra-life.svg">
+						</div>
+						<div class="life-holder life-holder-2"><img src="assets/extra-life.svg">
+						</div>
+						<div class="life-holder life-holder-3"><img src="assets/extra-life.svg">
+						</div>
 
-			<div class="up-button direction-buttons">
-				<img src="assets/button-up.svg">
-				<!-- <img src="assets/button-down.svg"> -->
-			</div>
+						<p>TURING&nbsp;&nbsp;&nbsp;PLAYER<span class="points-span">0</span></p>
+					</div>
 
-			<div class="right-button direction-buttons">
-				<img src="assets/button-up.svg">
-				<!-- <img src="assets/button-down.svg"> -->
-			</div>
+				  <canvas
+					  width="720"
+					  height="720"
+					  id="game">
+					</canvas>
+				</div>
+				<div class="screen-bars">
+					<img src="assets/bar-right.svg">
+				</div>
+			</article>
 
-			<div class="down-button direction-buttons">
-				<img src="assets/button-up.svg">
-				<!-- <img src="assets/button-down.svg"> -->
-			</div>
+			<article class="game-controls">
+				<img src="assets/controls.svg" class="control-panel">
 
-		</article>
+				<div class="fire-button">
+					<img src="assets/button-up.svg">
+					<!-- <img src="assets/button-down.svg"> -->
+				</div>
 
-	</main>
+				<div class="left-button direction-buttons">
+					<img src="assets/button-up.svg">
+					<!-- <img src="assets/button-down.svg"> -->
+				</div>
 
-<div style="display:none;">
-  <img src="assets/mushroom-red-sprite.png" id="mushroom">
-  </div>
-<div style="display:none;">
-  <img src="assets/Player-sprite.png" id="player">
-  </div>
-<div style="display:none;">
-  <img src="assets/centipede-sprite.png" id="centipede">
-  </div>
-  <script src="main.bundle.js"></script>
-</body>
+				<div class="up-button direction-buttons">
+					<img src="assets/button-up.svg">
+					<!-- <img src="assets/button-down.svg"> -->
+				</div>
+
+				<div class="right-button direction-buttons">
+					<img src="assets/button-up.svg">
+					<!-- <img src="assets/button-down.svg"> -->
+				</div>
+
+				<div class="down-button direction-buttons">
+					<img src="assets/button-up.svg">
+					<!-- <img src="assets/button-down.svg"> -->
+				</div>
+
+			</article>
+
+		</main>
+
+		<div style="display:none;">
+		  <img src="assets/mushroom-red-sprite.png" id="mushroom">
+		</div>
+		<div style="display:none;">
+		  <img src="assets/Player-sprite.png" id="player">
+		</div>
+		<div style="display:none;">
+		  <img src="assets/centipede-sprite.png" id="centipede">
+		</div>
+
+	  <script src="main.bundle.js"></script>
+
+	</body>
+
 </html>
