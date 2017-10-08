@@ -36,7 +36,7 @@ main {
 	height: 24px;
 }
 
-p {
+.top-line-container p {
 	height: 24px;
 	font-size: 36px;
 	width: 540px;
@@ -116,6 +116,43 @@ p {
 	bottom: 382px;
 	left: 752px;
 }
+
+.start-screen, .pause-screen {
+	width: 200px;
+	height: 240px;
+	font-size: 36px;
+	color: #ed3323;
+	font-family: 'ArcadeClassic';
+	background-color: black;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	border: 6px solid #fffd54;
+	margin: auto;
+	position: relative;
+	bottom: 1062px;
+}
+
+.pause-screen {
+	border: 6px solid #6efbfd;
+}
+
+.start-screen p, .pause-screen p {
+	margin: 0;
+	text-align: center;
+}
+
+.start-screen img, .pause-screen img {
+	height: 24px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.menu-display {
+	display: none;
+}
+
 
 
 
