@@ -15,8 +15,8 @@
     "getter-return": ["error", { "allowImplicit": true }],
     "indent": ["warn", 2],
     "no-template-curly-in-string": "error",
-    "semi": ["error", "always"],
-  },
+    "semi": ["error", "always"]
+    },
   "globals": {
     "expect": true
   }
