@@ -5,7 +5,6 @@ const assert = chai.assert;
 // const context = require('../lib/index.js');
 let spider;
 
-
 describe('Spider', function() {
   beforeEach( () => {
     spider = new Spider(3, 9);
@@ -16,7 +15,7 @@ describe('Spider', function() {
     assert.equal(spider.y, 432);
   });
 
-  it('Should be 45px wide and 24 tall by default', function (){
+  it('Should be 45px wide and 24px tall by default', function (){
     assert.equal(spider.width, 45);
     assert.equal(spider.height, 24);
   });
