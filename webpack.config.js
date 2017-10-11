@@ -16,6 +16,9 @@ module.exports = {
     ]
   },
   resolve: {
+    resolveLoader: {
+      root: path.join(__dirname, 'node_modules')
+    },
     extensions: ['', '.js', '.json', '.css']
   }
 };
