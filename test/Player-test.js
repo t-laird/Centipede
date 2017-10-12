@@ -3,10 +3,11 @@ global.document = {
   querySelector: function () {
     return {
       removeAttribute: function() {},
-      setAttribute: function() {}
-    }
+      setAttribute: function() {
+      }
+    };
   }
-}
+};
 
 const Player = require('../lib/Player.js');
 const chai = require('chai');
