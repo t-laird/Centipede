@@ -7,29 +7,29 @@ body {
 }
 
 main {
-	width: 1180px;
+	align-items: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
 	margin: auto;
+	width: 1180px;
 }
 
 .top-line-container {
+	align-items: center;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
 
 .lives {
-	width: 120px;
 	display: flex;
+	width: 120px;
 }
 
 .life-holder {
 	height: 24px;
-	width: 24px;
 	margin-left: 16px;
+	width: 24px;
 }
 
 .life-holder img {
@@ -37,16 +37,16 @@ main {
 }
 
 .top-line-container p {
-	height: 24px;
-	font-size: 36px;
-	width: 540px;
 	background-color: black;
-	margin: 0 0 0 14px;
-	padding: 0;
+	bottom: 5px;
 	color: #ed3323;
 	font-family: 'ArcadeClassic';
+	font-size: 36px;
+	height: 24px;
+	margin: 0 0 0 14px;
+	padding: 0;
 	position: relative;
-	bottom: 5px;
+	width: 540px;
 }
 
 .points-span {
@@ -54,22 +54,22 @@ main {
 }
 
 .centipede-rotate {
-  transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 .centipede-header img {
-	width: 1068px;
 	position:relative;
 	top: 15px;
+	width: 1068px;
 }
 
 .screen-container {
-	width: 1068px;
-	display: flex;
 	align-items: center;
-	flex-direction: row;
 	background-color: black;
+	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
+	width: 1068px;
 }
 
 .screen-bars {
@@ -77,9 +77,9 @@ main {
 }
 
 .control-panel {
-	width: 1248px;
-	position:relative;
 	bottom: 6px;
+	position:relative;
+	width: 1248px;
 }
 
 .fire-button,
@@ -88,9 +88,9 @@ main {
 }
 
 .fire-button {
-	width: 75px;
 	bottom: 260px;
 	left: 439px;
+	width: 75px;
 }
 
 .direction-buttons {
@@ -117,21 +117,25 @@ main {
 	left: 752px;
 }
 
-.start-screen, .pause-screen, .next-level, .you-died, .game-over {
-	width: 200px;
-	height: 240px;
-	font-size: 36px;
-	color: #ed3323;
-	font-family: 'ArcadeClassic';
-	background-color: black;
-	display: flex;
+.start-screen, 
+.pause-screen, 
+.next-level, 
+.you-died, 
+.game-over {
 	align-items: center;
-	flex-direction: column;
-	justify-content: center;
+	background-color: black;
 	border: 6px solid #fffd54;
+	bottom: 1062px;
+	color: #ed3323;
+	display: flex;
+	flex-direction: column;
+	font-family: 'ArcadeClassic';
+	font-size: 36px;
+	height: 240px;
+	justify-content: center;
 	margin: auto;
 	position: relative;
-	bottom: 1062px;
+	width: 200px;
 }
 
 .pause-screen {
@@ -142,15 +146,23 @@ main {
 	border: 6px solid green;
 }
 
-.start-screen p, .pause-screen p, .next-level p, .you-died p, .game-over p {
+.start-screen p, 
+.pause-screen p, 
+.next-level p, 
+.you-died p, 
+.game-over p {
 	margin: 0;
 	text-align: center;
 }
 
-.start-screen img, .pause-screen img, .next-level img, .you-died img, .game-over img {
+.start-screen img, 
+.pause-screen img, 
+.next-level img, 
+.you-died img, 
+.game-over img {
 	height: 24px;
-	margin-top: 15px;
 	margin-bottom: 15px;
+	margin-top: 15px;
 }
 
 .menu-display {
