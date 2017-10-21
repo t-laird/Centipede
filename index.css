@@ -46,11 +46,15 @@ main {
 	margin: 0 0 0 14px;
 	padding: 0;
 	position: relative;
-	width: 540px;
+	width: 450px;
 }
 
 .points-span {
 	margin-left: 10px;
+}
+
+#level-para {
+	width: 90px;
 }
 
 .centipede-rotate {
