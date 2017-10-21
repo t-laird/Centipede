@@ -93,6 +93,21 @@ main {
 	width: 75px;
 }
 
+.play-button, .pause-button {
+	width: 68px;
+	position: relative;
+}
+
+.play-button {
+	left: 591px;
+	bottom: 457px;
+}
+
+.pause-button {
+	left: 591px;
+	bottom: 464px;
+}
+
 .direction-buttons {
 	width: 48px;
 }
@@ -125,7 +140,7 @@ main {
 	align-items: center;
 	background-color: black;
 	border: 6px solid #fffd54;
-	bottom: 1062px;
+	bottom: 1117px;
 	color: #ed3323;
 	display: flex;
 	flex-direction: column;
