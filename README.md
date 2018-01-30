@@ -10,7 +10,7 @@ This was our first time using HTML Canvas and our first project using JS 2015 (E
 
 #### Feel free to give it a try and let us know what you think!
 
-Live playable version: http://t-laird.github.io/game-time
+Live playable version: http://t-laird.com/Centipede
 
 **********
 
