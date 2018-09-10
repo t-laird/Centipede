@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "ArcadeClassic";
+  src: url("./assets/ARCADECLASSIC.TTF"); 
+}
+
+* {
+  font-family: ArcadeClassic; 
+}
+
+
 #game{
   background-color: black;
 }
